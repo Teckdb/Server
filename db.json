@@ -1,33 +1,38 @@
 {
-  "projects": [
+  "pots": [
     {
       "id": 1,
-      "title": "Module 2 Project",
-      "description": "Module 2 project - Integrate a React app with backend.",
-      "userId": 1
-    },
-    {
-      "id": 2,
-      "title": "Module 3 Project",
-      "description": "Create a full-stack application using MERN stack.",
-      "userId": 1
+      "name": "express",
+      "categories": [
+        "heat"
+      ],
+      "description": "An espresso machine is a specialized coffee brewing device designed to create espresso, a concentrated form of coffee made by forcing hot water through finely-ground coffee under high pressure."
     }
   ],
-  "tasks": [
+  "coffees": [
     {
-      "id": 1,
-      "projectId": 1,
-      "description": "Use Vite to create a basic React app"
-    },
-    {
-      "id": 2,
-      "projectId": 1,
-      "description": "Install React Router and setup routes"
-    },
-    {
-      "id": 3,
-      "projectId": 2,
-      "description": "Create a form with 5 input fields"
+      "potId": 1,
+      "name": "risaralda",
+      "available": true,
+      "stock": 0,
+      "package": {
+        "grames": 100,
+        "price": 10
+      },
+      "image": "URL",
+      "rating": 90,
+      "altitude": 1023,
+      "variety": "caturra",
+      "process": "wash",
+      "cata_notes": [
+        "lorem"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "course grind"
+      ],
+      "description": "also known as a press pot or plunger pot, is a simple and popular coffee brewing device. It consists of a cylindrical glass or stainless steel container, a lid with an attached plunger, and a metal or nylon mesh filter"
     }
   ]
 }
