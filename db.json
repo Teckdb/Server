@@ -1,38 +1,1803 @@
 {
-  "pots": [
+  "coffeePots": [
     {
       "id": 1,
-      "name": "express",
-      "categories": [
-        "heat"
-      ],
+      "potId": 1,
+      "name": "Expresso Machine",
+      "extraction": "Expresso",
+      "barPressure": 19,
+      "image": "https://res.cloudinary.com/dsvyez2w5/image/upload/v1722877165/coffee-pots/obrqlwjs6qbfulrjuxst.jpg",
       "description": "An espresso machine is a specialized coffee brewing device designed to create espresso, a concentrated form of coffee made by forcing hot water through finely-ground coffee under high pressure."
+    },
+    {
+      "potId": 2,
+      "name": "Drip Coffee Maker",
+      "extraction": "Drip Brewing",
+      "barPressure": 9,
+      "image": "https://res.cloudinary.com/dsvyez2w5/image/upload/v1722877165/coffee-pots/si1p2cpo9vewdkwhme32.jpg",
+      "description": "A drip coffee maker is a type of coffee machine that brews coffee by dripping hot water over ground coffee beans contained in a filter. The water slowly percolates through the coffee grounds, extracting their flavors, and then drips into a carafe or pot below. This method produces a smooth and consistent cup of coffee, making it a popular choice for home and office use.",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "potId": 3,
+      "name": "French Press",
+      "extraction": "Manual Press",
+      "barPressure": 2,
+      "image": "https://res.cloudinary.com/dsvyez2w5/image/upload/v1722877166/coffee-pots/ybbi1deovrqvalo3ayfv.jpg",
+      "description": "The French Press, also known as a press pot or plunger pot, extracts coffee using the immersion method. In this method, coarsely ground coffee is steeped in hot water for an extended period, usually around 4 to 5 minutes. This allows for a full extraction of the coffee's flavors and oils, resulting in a rich and full-bodied cup of coffee."
+    },
+    {
+      "id": 4,
+      "potId": 4,
+      "name": "Moka",
+      "extraction": "Heating",
+      "barPressure": "2",
+      "image": "https://res.cloudinary.com/dsvyez2w5/image/upload/v1722877166/coffee-pots/o5tnfyvsinqzgzvchfvt.jpg",
+      "description": "The Moka pot is a stovetop coffee maker that brews coffee by passing hot water, driven by steam pressure, through ground coffee. It consists of three main parts: a bottom chamber for water, a middle funnel-shaped filter for ground coffee, and a top chamber where the brewed coffee collects."
+    },
+    {
+      "potId": 5,
+      "name": "Pour-Over Coffee Maker",
+      "extraction": "Pouring",
+      "barPressure": null,
+      "image": "https://res.cloudinary.com/dsvyez2w5/image/upload/v1722877165/coffee-pots/ybpzcviiyutwr5bju3gz.jpg",
+      "description": "A Pour-Over Coffee Maker is a manual coffee brewing method that involves pouring hot water over coffee grounds in a filter. The water flows through the coffee, extracting flavors and aromas, and then drips into a carafe or mug below. This method allows for precise control over the brewing process, including water temperature, pour rate, and brew time, resulting in a clean, flavorful cup of coffee.",
+      "id": 5
+    },
+    {
+      "potId": 6,
+      "name": "Cold Brew Coffee Maker",
+      "extraction": "immersion",
+      "barPressure": null,
+      "image": "https://res.cloudinary.com/dsvyez2w5/image/upload/v1722877165/coffee-pots/a6ehjs61imkzfbmww2vb.jpg",
+      "description": "Cold brew coffee is made by steeping coarsely ground coffee beans in cold water for an extended period, typically between 12 to 24 hours. This method results in a smooth, less acidic coffee concentrate that can be diluted with water or milk before serving. Cold brew is often enjoyed over ice and can be stored in the refrigerator for several days.",
+      "id": 6
+    },
+    {
+      "potId": 7,
+      "name": "AeropressEDIT",
+      "extraction": "Manual Pressure",
+      "barPressure": 1,
+      "image": "https://res.cloudinary.com/dsvyez2w5/image/upload/v1722877166/coffee-pots/co8x5bihuywqmoxswmpd.png",
+      "description": "The AeroPress is a popular manual coffee maker known for its versatility and ability to produce a rich, smooth coffee. It uses a combination of immersion and pressure to brew coffee, where ground coffee is steeped in hot water and then forced through a filter by pressing down a plunger.",
+      "id": 7
+    },
+    {
+      "potId": 8,
+      "name": "Percolator",
+      "extraction": "Heating",
+      "barPressure": null,
+      "image": "https://res.cloudinary.com/dsvyez2w5/image/upload/v1722877165/coffee-pots/miipzirona90femkwg7n.jpg",
+      "description": "A percolator is a type of coffee maker that brews coffee by cycling boiling water through coffee grounds using gravity. The percolator has a pot, a tube, and a perforated basket that holds the coffee grounds. As the water heats, it is pushed up through the central tube and then flows over the coffee grounds, extracting the flavors and aromas before dripping back down into the main chamber. This cycle repeats until the desired strength of coffee is reached.",
+      "id": 8
+    },
+    {
+      "potId": 9,
+      "name": "Single-Serve Pod Coffee Maker",
+      "extraction": "Brewing",
+      "barPressure": 9,
+      "image": "https://res.cloudinary.com/dsvyez2w5/image/upload/v1722877165/coffee-pots/rv0bemx042qwf9llfnxr.webp",
+      "description": "A single-serve coffee maker, also known as a single-serve pot coffee maker, is designed to brew a single cup of coffee at a time. These machines are popular for their convenience, speed, and ability to brew coffee with minimal cleanup. They typically use pre-packaged coffee pods or capsules, although some models also offer the option to use ground coffee.",
+      "id": 9
     }
   ],
   "coffees": [
     {
-      "potId": 1,
-      "name": "risaralda",
+      "coffeePotId": 1,
+      "name": "Nicaragua - Matagalpa",
       "available": true,
-      "stock": 0,
-      "package": {
-        "grames": 100,
-        "price": 10
+      "location": {
+        "lat": 12.929658865553167,
+        "lng": -85.90475990344171
       },
-      "image": "URL",
+      "pack": [
+        {
+          "grames": 250,
+          "price": 20
+        },
+        {
+          "grames": 500,
+          "price": 30
+        },
+        {
+          "grames": 750,
+          "price": 45
+        },
+        {
+          "grames": 100,
+          "price": 60
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111355/01_fold2f_kn3on5.png",
       "rating": 90,
-      "altitude": 1023,
+      "altitude": 1450,
       "variety": "caturra",
       "process": "wash",
       "cata_notes": [
-        "lorem"
+        "Notes of nuts",
+        "hazelnuts and apple",
+        "Velvety body, medium-subtle sweetness and malic acidity."
       ],
       "grinding": [
         "fine grind",
         "medium grind",
         "course grind"
       ],
-      "description": "also known as a press pot or plunger pot, is a simple and popular coffee brewing device. It consists of a cylindrical glass or stainless steel container, a lid with an attached plunger, and a metal or nylon mesh filter"
+      "description": "Las Blanquitas¨ communities are behind this coffee grown in the Peñas Blancas Massif located in the department of Matagalpa, Nicaragua.These communities are made up of descendants of several indigenous tribes such as the Mismitos and Mayagnas who live in the Peñas Blancas Massif and who, like their ancestors, take advantage of the fertility of the area's soils and the abundance of water to grow coffee in the traditional way.This coffee comes from a natural park where entire families work together using manual techniques that respect the biodiversity of the area for coffee cultivation.",
+      "id": 1
+    },
+    {
+      "coffeePotId": 2,
+      "name": "Colombia - Quindío",
+      "available": true,
+      "location": {
+        "lat": 12.929658865553167,
+        "lng": -85.90475990344171
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 20
+        },
+        {
+          "grames": 500,
+          "price": 30
+        },
+        {
+          "grames": 750,
+          "price": 45
+        },
+        {
+          "grames": 100,
+          "price": 60
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111371/07_l9pdjk_lxazj8.png",
+      "rating": 93,
+      "altitude": 1900,
+      "variety": "caturra",
+      "process": "wash",
+      "cata_notes": [
+        "Sweet caramel flavor",
+        "ripe fruits and subtle chocolate notes",
+        "Delicate and citric acidity, silky medium body, clean and lasting dark caramel residual."
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "course grind"
+      ],
+      "description": "Don Julián continues the family tradition of growing coffee in the highlands of Quindío, Colombia.Don Julián's main objective is to promote high quality coffee, as well as transmit the love and passion for the coffee culture that is passed from generation to generation and innovating in the art of growing, drying and roasting specialty coffees.Thanks to people so dedicated and careful in their techniques, we can deliver to your home a coffee of certified origin and natural production that has been collected manually to give you the best of Colombia.",
+      "id": 2
+    },
+    {
+      "coffeePotId": 3,
+      "name": "Etiopía - Sidama",
+      "available": true,
+      "location": {
+        "lat": 12.929658865553167,
+        "lng": -85.90475990344171
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 20
+        },
+        {
+          "grames": 500,
+          "price": 30
+        },
+        {
+          "grames": 750,
+          "price": 45
+        },
+        {
+          "grames": 100,
+          "price": 60
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111037/05_i6wvb1_e_background_removal_f_png_t4jqqb.png",
+      "rating": 97,
+      "altitude": 2100,
+      "variety": "Organic Heirloom",
+      "process": "wash",
+      "cata_notes": [
+        "Clean fruity cup in which the flavor of yellow fruits (peach and apricot) stands out; with floral notes of jasmine",
+        "Dark chocolate and vanilla",
+        "Medium-high malic acidity and medium buttery body"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "course grind"
+      ],
+      "description": "The coffee plant, the coffee plant, is native to Ethiopia, whose ancestors discovered and recognized the energizing effects of coffee.In this area, coffee matures slowly at cool temperatures, due to the height of the forests in which it grows wild, resulting in a very diverse, high-quality coffee with complex flavors. It is later collected by coffee growers in a traditional manual way.There is such a tradition in this country that drinking coffee becomes a forty-five minute ritual. Since the beans are roasted at the moment over the ember, ground in a mortar and served in small cups without handles.We invite you to reproduce the ritual in your home.",
+      "id": 3
+    },
+    {
+      "coffeePotId": 4,
+      "name": "Honduras - Santa Bárbara",
+      "available": true,
+      "location": {
+        "lat": 12.929658865553167,
+        "lng": -85.90475990344171
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 20
+        },
+        {
+          "grames": 500,
+          "price": 30
+        },
+        {
+          "grames": 750,
+          "price": 45
+        },
+        {
+          "grames": 100,
+          "price": 60
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 91,
+      "altitude": 1700,
+      "variety": "Catuai, caturra, paca and bourbon",
+      "process": "wash",
+      "cata_notes": [
+        "Fruity fragrance, intense fruit aromas",
+        "lively orange acidity, velvety flavor",
+        "balanced body, medium sweetness and a smooth finish."
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "course grind"
+      ],
+      "description": "Ivo Enamorado is the farmer behind the pampered ¨Las Cúspides¨ farm, located in Santa Bárbara, a Honduran region bordering Guatemala that carefully produces the best coffees in Honduras.This farmer, and his good practices, have led his farm to a form of cultivation compatible with respect for the environment and native species.Ivo has made a great effort to produce his coffee responsibly, his good practices begin with the full transformation of people, since it is with them that the change begins. Their commitment has always been and will be to contribute to the improvement of the values ​​of the community.Their work is on the earth and this coffee is its fruit.",
+      "id": 4
+    },
+    {
+      "coffeePotId": 1,
+      "name": "Costa Rica - Tarrazú",
+      "available": true,
+      "location": {
+        "lat": 9.3368,
+        "lng": -84.1391
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 20
+        },
+        {
+          "grames": 500,
+          "price": 30
+        },
+        {
+          "grames": 750,
+          "price": 45
+        },
+        {
+          "grames": 100,
+          "price": 60
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 92,
+      "altitude": 1650,
+      "variety": "Caturra",
+      "process": "wash",
+      "cata_notes": [
+        "Bright acidity with a clean, balanced body",
+        "Notes of citrus and honey",
+        "Smooth finish with a subtle sweetness"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "course grind"
+      ],
+      "description": "Tarrazú coffee from Costa Rica is famous for its bright acidity and clean, balanced body. Grown in the high altitudes of Tarrazú, the coffee has a smooth finish with subtle sweetness, making it a favorite among coffee connoisseurs.",
+      "id": 5
+    },
+    {
+      "coffeePotId": 2,
+      "name": "Guatemala - Antigua",
+      "available": true,
+      "location": {
+        "lat": 14.5569,
+        "lng": -90.7338
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 22
+        },
+        {
+          "grames": 500,
+          "price": 32
+        },
+        {
+          "grames": 750,
+          "price": 48
+        },
+        {
+          "grames": 100,
+          "price": 64
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 94,
+      "altitude": 1700,
+      "variety": "Bourbon",
+      "process": "wash",
+      "cata_notes": [
+        "Complex flavors with notes of cocoa and spice",
+        "Bright acidity and a full body",
+        "Smooth, lingering finish"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "course grind"
+      ],
+      "description": "Antigua, Guatemala, is known for its complex flavors and full body, often with notes of cocoa and spice. This coffee is carefully processed to maintain its bright acidity and smooth, lingering finish.",
+      "id": 6
+    },
+    {
+      "coffeePotId": 3,
+      "name": "Ethiopia - Yirgacheffe",
+      "available": true,
+      "location": {
+        "lat": 6.1554,
+        "lng": 38.2052
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 24
+        },
+        {
+          "grames": 500,
+          "price": 34
+        },
+        {
+          "grames": 750,
+          "price": 50
+        },
+        {
+          "grames": 100,
+          "price": 66
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 96,
+      "altitude": 1900,
+      "variety": "Heirloom",
+      "process": "wash",
+      "cata_notes": [
+        "Floral and fruity notes with a hint of jasmine",
+        "Bright acidity and medium body",
+        "Clean finish with a slight sweetness"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "course grind"
+      ],
+      "description": "Yirgacheffe coffee is renowned for its floral and fruity notes, with a hint of jasmine. This Ethiopian coffee is grown at high altitudes, giving it a bright acidity and clean, slightly sweet finish.",
+      "id": 7
+    },
+    {
+      "coffeePotId": 4,
+      "name": "Brazil - Cerrado",
+      "available": true,
+      "location": {
+        "lat": -18.4313,
+        "lng": -47.9515
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 18
+        },
+        {
+          "grames": 500,
+          "price": 28
+        },
+        {
+          "grames": 750,
+          "price": 42
+        },
+        {
+          "grames": 100,
+          "price": 56
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 89,
+      "altitude": 1100,
+      "variety": "Mundo Novo",
+      "process": "natural",
+      "cata_notes": [
+        "Nutty flavors with a chocolatey finish",
+        "Medium acidity and body",
+        "Smooth and balanced with a rich texture"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "course grind"
+      ],
+      "description": "Brazilian Cerrado coffee is famous for its nutty flavors and smooth, balanced texture. This coffee has a chocolatey finish, making it a favorite for those who enjoy a rich, yet smooth cup.",
+      "id": 8
+    },
+    {
+      "coffeePotId": 1,
+      "name": "Colombia - Huila",
+      "available": true,
+      "location": {
+        "lat": 2.9316,
+        "lng": -75.2770
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 20
+        },
+        {
+          "grames": 500,
+          "price": 30
+        },
+        {
+          "grames": 750,
+          "price": 45
+        },
+        {
+          "grames": 100,
+          "price": 60
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 95,
+      "altitude": 1800,
+      "variety": "Caturra, Castillo",
+      "process": "wash",
+      "cata_notes": [
+        "Sweet notes of caramel and honey",
+        "Medium acidity and body",
+        "Smooth and balanced with a lingering finish"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "course grind"
+      ],
+      "description": "Huila, Colombia, is renowned for producing high-quality coffee with sweet notes of caramel and honey. The beans are grown at high altitudes and processed with care to ensure a smooth and balanced cup.",
+      "id": 9
+    },
+    {
+      "coffeePotId": 2,
+      "name": "Kenya - Nyeri",
+      "available": true,
+      "location": {
+        "lat": -0.4201,
+        "lng": 36.9476
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 22
+        },
+        {
+          "grames": 500,
+          "price": 32
+        },
+        {
+          "grames": 750,
+          "price": 48
+        },
+        {
+          "grames": 100,
+          "price": 64
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 96,
+      "altitude": 1800,
+      "variety": "SL28, SL34",
+      "process": "wash",
+      "cata_notes": [
+        "Bold flavors with notes of blackcurrant and citrus",
+        "High acidity and medium body",
+        "Clean, crisp finish with a lingering sweetness"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "course grind"
+      ],
+      "description": "Kenyan Nyeri coffee is known for its bold, fruity flavors with notes of blackcurrant and citrus. The high acidity and clean, crisp finish make it a refreshing cup with a lingering sweetness.",
+      "id": 10
+    },
+    {
+      "coffeePotId": 1,
+      "name": "Costa Rica - Tarrazú",
+      "available": true,
+      "location": {
+        "lat": 9.3368,
+        "lng": -84.1391
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 20
+        },
+        {
+          "grames": 500,
+          "price": 30
+        },
+        {
+          "grames": 750,
+          "price": 45
+        },
+        {
+          "grames": 100,
+          "price": 60
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 92,
+      "altitude": 1650,
+      "variety": "Caturra",
+      "process": "wash",
+      "cata_notes": [
+        "Bright acidity with a clean, balanced body",
+        "Notes of citrus and honey",
+        "Smooth finish with a subtle sweetness"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "course grind"
+      ],
+      "description": "Tarrazú coffee from Costa Rica is famous for its bright acidity and clean, balanced body. Grown in the high altitudes of Tarrazú, the coffee has a smooth finish with subtle sweetness, making it a favorite among coffee connoisseurs.",
+      "id": 11
+    },
+    {
+      "coffeePotId": 2,
+      "name": "Guatemala - Antigua",
+      "available": true,
+      "location": {
+        "lat": 14.5569,
+        "lng": -90.7338
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 22
+        },
+        {
+          "grames": 500,
+          "price": 32
+        },
+        {
+          "grames": 750,
+          "price": 48
+        },
+        {
+          "grames": 100,
+          "price": 64
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 94,
+      "altitude": 1700,
+      "variety": "Bourbon",
+      "process": "wash",
+      "cata_notes": [
+        "Complex flavors with notes of cocoa and spice",
+        "Bright acidity and a full body",
+        "Smooth, lingering finish"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "course grind"
+      ],
+      "description": "Antigua, Guatemala, is known for its complex flavors and full body, often with notes of cocoa and spice. This coffee is carefully processed to maintain its bright acidity and smooth, lingering finish.",
+      "id": 12
+    },
+    {
+      "coffeePotId": 3,
+      "name": "Ethiopia - Yirgacheffe",
+      "available": true,
+      "location": {
+        "lat": 6.1554,
+        "lng": 38.2052
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 24
+        },
+        {
+          "grames": 500,
+          "price": 34
+        },
+        {
+          "grames": 750,
+          "price": 50
+        },
+        {
+          "grames": 100,
+          "price": 66
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 96,
+      "altitude": 1900,
+      "variety": "Heirloom",
+      "process": "wash",
+      "cata_notes": [
+        "Floral and fruity notes with a hint of jasmine",
+        "Bright acidity and medium body",
+        "Clean finish with a slight sweetness"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "course grind"
+      ],
+      "description": "Yirgacheffe coffee is renowned for its floral and fruity notes, with a hint of jasmine. This Ethiopian coffee is grown at high altitudes, giving it a bright acidity and clean, slightly sweet finish.",
+      "id": 13
+    },
+    {
+      "coffeePotId": 4,
+      "name": "Brazil - Cerrado",
+      "available": true,
+      "location": {
+        "lat": -18.4313,
+        "lng": -47.9515
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 18
+        },
+        {
+          "grames": 500,
+          "price": 28
+        },
+        {
+          "grames": 750,
+          "price": 42
+        },
+        {
+          "grames": 100,
+          "price": 56
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 89,
+      "altitude": 1100,
+      "variety": "Mundo Novo",
+      "process": "natural",
+      "cata_notes": [
+        "Nutty flavors with a chocolatey finish",
+        "Medium acidity and body",
+        "Smooth and balanced with a rich texture"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "course grind"
+      ],
+      "description": "Brazilian Cerrado coffee is famous for its nutty flavors and smooth, balanced texture. This coffee has a chocolatey finish, making it a favorite for those who enjoy a rich, yet smooth cup.",
+      "id": 14
+    },
+    {
+      "coffeePotId": 1,
+      "name": "Colombia - Huila",
+      "available": true,
+      "location": {
+        "lat": 2.9316,
+        "lng": -75.2770
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 20
+        },
+        {
+          "grames": 500,
+          "price": 30
+        },
+        {
+          "grames": 750,
+          "price": 45
+        },
+        {
+          "grames": 100,
+          "price": 60
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 95,
+      "altitude": 1800,
+      "variety": "Caturra, Castillo",
+      "process": "wash",
+      "cata_notes": [
+        "Sweet notes of caramel and honey",
+        "Medium acidity and body",
+        "Smooth and balanced with a lingering finish"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "course grind"
+      ],
+      "description": "Huila, Colombia, is renowned for producing high-quality coffee with sweet notes of caramel and honey. The beans are grown at high altitudes and processed with care to ensure a smooth and balanced cup.",
+      "id": 15
+    },
+    {
+      "coffeePotId": 2,
+      "name": "Kenya - Nyeri",
+      "available": true,
+      "location": {
+        "lat": -0.4201,
+        "lng": 36.9476
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 22
+        },
+        {
+          "grames": 500,
+          "price": 32
+        },
+        {
+          "grames": 750,
+          "price": 48
+        },
+        {
+          "grames": 100,
+          "price": 64
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 96,
+      "altitude": 1800,
+      "variety": "SL28, SL34",
+      "process": "wash",
+      "cata_notes": [
+        "Bold flavors with notes of blackcurrant and citrus",
+        "High acidity and medium body",
+        "Clean, crisp finish with a lingering sweetness"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "course grind"
+      ],
+      "description": "Kenyan Nyeri coffee is known for its bold, fruity flavors with notes of blackcurrant and citrus. The high acidity and clean, crisp finish make it a refreshing cup with a lingering sweetness.",
+      "id": 16
+    },
+    {
+      "coffeePotId": 1,
+      "name": "Peru - Chanchamayo",
+      "available": true,
+      "location": {
+        "lat": -11.536586,
+        "lng": -74.916799
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 20
+        },
+        {
+          "grames": 500,
+          "price": 30
+        },
+        {
+          "grames": 750,
+          "price": 45
+        },
+        {
+          "grames": 1000,
+          "price": 60
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 91,
+      "altitude": 1200,
+      "variety": "Typica, Caturra",
+      "process": "washed",
+      "cata_notes": [
+        "Fruity notes with a hint of chocolate",
+        "Bright acidity, medium body",
+        "Smooth and balanced finish"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "coarse grind"
+      ],
+      "id": 17,
+      "description": "Peru's Chanchamayo region produces a coffee with bright fruity notes and a hint of chocolate, offering a smooth and balanced cup."
+    },
+    {
+      "coffeePotId": 2,
+      "name": "Mexico - Chiapas",
+      "available": true,
+      "location": {
+        "lat": 16.7535,
+        "lng": -93.1169
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 20
+        },
+        {
+          "grames": 500,
+          "price": 30
+        },
+        {
+          "grames": 750,
+          "price": 45
+        },
+        {
+          "grames": 1000,
+          "price": 60
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 92,
+      "altitude": 1350,
+      "variety": "Bourbon, Typica",
+      "process": "washed",
+      "cata_notes": [
+        "Citrus and floral notes with a smooth body",
+        "Medium acidity",
+        "Clean and refreshing finish"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "coarse grind"
+      ],
+      "id": 18,
+      "description": "Chiapas coffee from Mexico is known for its citrus and floral notes, offering a smooth body and a refreshing finish."
+    },
+    {
+      "coffeePotId": 3,
+      "name": "Colombia - Nariño",
+      "available": true,
+      "location": {
+        "lat": 1.2892,
+        "lng": -77.3597
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 22
+        },
+        {
+          "grames": 500,
+          "price": 32
+        },
+        {
+          "grames": 750,
+          "price": 48
+        },
+        {
+          "grames": 1000,
+          "price": 64
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 94,
+      "altitude": 1800,
+      "variety": "Caturra",
+      "process": "washed",
+      "cata_notes": [
+        "Rich caramel notes with a bright acidity",
+        "Full-bodied",
+        "Smooth finish with lingering sweetness"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "coarse grind"
+      ],
+      "id": 19,
+      "description": "Nariño, Colombia, is known for its rich caramel notes and bright acidity, offering a full-bodied and smooth finish."
+    },
+    {
+      "coffeePotId": 4,
+      "name": "Ethiopia - Sidamo",
+      "available": true,
+      "location": {
+        "lat": 6.0413,
+        "lng": 38.2465
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 24
+        },
+        {
+          "grames": 500,
+          "price": 34
+        },
+        {
+          "grames": 750,
+          "price": 50
+        },
+        {
+          "grames": 1000,
+          "price": 66
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 95,
+      "altitude": 1900,
+      "variety": "Heirloom",
+      "process": "washed",
+      "cata_notes": [
+        "Fruity and floral notes with a hint of spice",
+        "Bright acidity",
+        "Clean and refreshing finish"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "coarse grind"
+      ],
+      "id": 20,
+      "description": "Sidamo coffee from Ethiopia offers fruity and floral notes with a hint of spice, providing a bright acidity and clean finish."
+    },
+    {
+      "coffeePotId": 1,
+      "name": "Guatemala - Huehuetenango",
+      "available": true,
+      "location": {
+        "lat": 15.3203,
+        "lng": -91.4751
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 22
+        },
+        {
+          "grames": 500,
+          "price": 32
+        },
+        {
+          "grames": 750,
+          "price": 48
+        },
+        {
+          "grames": 1000,
+          "price": 64
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 93,
+      "altitude": 1600,
+      "variety": "Bourbon, Caturra",
+      "process": "washed",
+      "cata_notes": [
+        "Bright acidity with floral and fruity notes",
+        "Medium body",
+        "Smooth and clean finish"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "coarse grind"
+      ],
+      "id": 21,
+      "description": "Huehuetenango coffee from Guatemala is known for its bright acidity and floral notes, offering a smooth and clean finish."
+    },
+    {
+      "coffeePotId": 2,
+      "name": "Kenya - Kirinyaga",
+      "available": true,
+      "location": {
+        "lat": -0.5094,
+        "lng": 37.2802
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 24
+        },
+        {
+          "grames": 500,
+          "price": 34
+        },
+        {
+          "grames": 750,
+          "price": 50
+        },
+        {
+          "grames": 1000,
+          "price": 66
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 96,
+      "altitude": 1700,
+      "variety": "SL28, SL34",
+      "process": "washed",
+      "cata_notes": [
+        "Citrus and berry notes with a crisp acidity",
+        "Full-bodied",
+        "Smooth finish with a hint of sweetness"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "coarse grind"
+      ],
+      "id": 22,
+      "description": "Kirinyaga coffee from Kenya offers citrus and berry notes with a crisp acidity, providing a full-bodied and smooth finish."
+    },
+    {
+      "coffeePotId": 5,
+      "name": "Vietnam - Dalat",
+      "available": true,
+      "location": {
+        "lat": 11.9404,
+        "lng": 108.4583
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 18
+        },
+        {
+          "grames": 500,
+          "price": 28
+        },
+        {
+          "grames": 750,
+          "price": 42
+        },
+        {
+          "grames": 1000,
+          "price": 56
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 89,
+      "altitude": 1500,
+      "variety": "Robusta, Arabica",
+      "process": "wet-hulled",
+      "cata_notes": [
+        "Bold and earthy with chocolate undertones",
+        "Low acidity, full body",
+        "Smooth finish with a rich texture"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "course grind"
+      ],
+      "id": 23,
+      "description": "Dalat coffee from Vietnam is known for its bold, earthy flavors with chocolate undertones. The coffee has a low acidity and a full body, making it a rich and satisfying cup."
+    },
+    {
+      "coffeePotId": 6,
+      "name": "Jamaica - Blue Mountain",
+      "available": true,
+      "location": {
+        "lat": 18.1096,
+        "lng": -77.2975
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 35
+        },
+        {
+          "grames": 500,
+          "price": 50
+        },
+        {
+          "grames": 750,
+          "price": 70
+        },
+        {
+          "grames": 1000,
+          "price": 90
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 98,
+      "altitude": 2200,
+      "variety": "Typica",
+      "process": "washed",
+      "cata_notes": [
+        "Smooth and mild with a hint of fruit",
+        "Low acidity, medium body",
+        "Well-balanced with a clean finish"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "course grind"
+      ],
+      "id": 24,
+      "description": "Blue Mountain coffee from Jamaica is renowned for its smooth and mild flavor, with a hint of fruit. This coffee has a low acidity and a well-balanced body, making it a luxurious cup."
+    },
+    {
+      "coffeePotId": 7,
+      "name": "Hawaii - Kona",
+      "available": true,
+      "location": {
+        "lat": 19.5668,
+        "lng": -155.6619
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 30
+        },
+        {
+          "grames": 500,
+          "price": 45
+        },
+        {
+          "grames": 750,
+          "price": 65
+        },
+        {
+          "grames": 1000,
+          "price": 85
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 97,
+      "altitude": 800,
+      "variety": "Typica",
+      "process": "washed",
+      "cata_notes": [
+        "Smooth and balanced with a slight nutty flavor",
+        "Medium body, low acidity",
+        "Clean finish with a hint of spice"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "course grind"
+      ],
+      "id": 25,
+      "description": "Kona coffee from Hawaii is famous for its smooth and balanced flavor with a slight nutty undertone. This coffee is known for its clean finish and low acidity, making it a perfect cup for any time of the day."
+    },
+    {
+      "coffeePotId": 8,
+      "name": "Papua New Guinea - Goroka",
+      "available": true,
+      "location": {
+        "lat": -6.0835,
+        "lng": 145.3874
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 22
+        },
+        {
+          "grames": 500,
+          "price": 34
+        },
+        {
+          "grames": 750,
+          "price": 50
+        },
+        {
+          "grames": 1000,
+          "price": 66
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 92,
+      "altitude": 1600,
+      "variety": "Typica, Bourbon",
+      "process": "washed",
+      "cata_notes": [
+        "Fruity and spicy with earthy undertones",
+        "Medium acidity, full body",
+        "Rich and complex finish"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "course grind"
+      ],
+      "id": 26,
+      "description": "Goroka coffee from Papua New Guinea is known for its fruity and spicy flavors with earthy undertones. The coffee has a medium acidity and a full body, providing a rich and complex cup."
+    },
+    {
+      "coffeePotId": 9,
+      "name": "Tanzania - Kilimanjaro",
+      "available": true,
+      "location": {
+        "lat": -3.0654,
+        "lng": 37.3556
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 25
+        },
+        {
+          "grames": 500,
+          "price": 38
+        },
+        {
+          "grames": 750,
+          "price": 55
+        },
+        {
+          "grames": 1000,
+          "price": 72
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 94,
+      "altitude": 1800,
+      "variety": "Bourbon",
+      "process": "washed",
+      "cata_notes": [
+        "Bright acidity with berry-like sweetness",
+        "Medium body, smooth texture",
+        "Clean and crisp finish"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "course grind"
+      ],
+      "id": 27,
+      "description": "Kilimanjaro coffee from Tanzania is known for its bright acidity and berry-like sweetness. This coffee has a medium body and a clean, crisp finish, making it a refreshing cup."
+    },
+    {
+      "coffeePotId": 5,
+      "name": "Rwanda - Nyamasheke",
+      "available": true,
+      "location": {
+        "lat": -2.5077,
+        "lng": 29.7837
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 23
+        },
+        {
+          "grames": 500,
+          "price": 35
+        },
+        {
+          "grames": 750,
+          "price": 50
+        },
+        {
+          "grames": 1000,
+          "price": 65
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 95,
+      "altitude": 1900,
+      "variety": "Bourbon",
+      "process": "washed",
+      "cata_notes": [
+        "Citrus and floral notes with a hint of spice",
+        "Bright acidity",
+        "Clean and refreshing finish"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "course grind"
+      ],
+      "id": 28,
+      "description": "Nyamasheke coffee from Rwanda offers citrus and floral notes with a hint of spice, providing a bright acidity and a clean finish."
+    },
+    {
+      "coffeePotId": 5,
+      "name": "Guatemala - Huehuetenango",
+      "available": true,
+      "location": {
+        "lat": 15.3203,
+        "lng": -91.4751
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 22
+        },
+        {
+          "grames": 500,
+          "price": 32
+        },
+        {
+          "grames": 750,
+          "price": 48
+        },
+        {
+          "grames": 1000,
+          "price": 64
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 93,
+      "altitude": 1600,
+      "variety": "Bourbon, Caturra",
+      "process": "washed",
+      "cata_notes": [
+        "Bright acidity with floral and fruity notes",
+        "Medium body",
+        "Smooth and clean finish"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "coarse grind"
+      ],
+      "id": 29,
+      "description": "Huehuetenango coffee from Guatemala is known for its bright acidity and floral notes, offering a smooth and clean finish."
+    },
+    {
+      "coffeePotId": 6,
+      "name": "Burundi - Kayanza",
+      "available": true,
+      "location": {
+        "lat": -2.9228,
+        "lng": 29.6294
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 23
+        },
+        {
+          "grames": 500,
+          "price": 35
+        },
+        {
+          "grames": 750,
+          "price": 50
+        },
+        {
+          "grames": 1000,
+          "price": 66
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 94,
+      "altitude": 1900,
+      "variety": "Bourbon",
+      "process": "washed",
+      "cata_notes": [
+        "Bright acidity with citrus and floral notes",
+        "Medium body, clean finish",
+        "Complex with a hint of tea"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "course grind"
+      ],
+      "id": 30,
+      "description": "Burundi Kayanza coffee is known for its bright acidity and complex flavor profile. The beans are grown at high altitudes and are handpicked to ensure the highest quality."
+    },
+    {
+      "coffeePotId": 7,
+      "name": "Indonesia - Flores",
+      "available": true,
+      "location": {
+        "lat": -8.6574,
+        "lng": 121.0794
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 24
+        },
+        {
+          "grames": 500,
+          "price": 38
+        },
+        {
+          "grames": 750,
+          "price": 55
+        },
+        {
+          "grames": 1000,
+          "price": 72
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 92,
+      "altitude": 1400,
+      "variety": "Typica",
+      "process": "washed",
+      "cata_notes": [
+        "Spicy and earthy with notes of tobacco",
+        "Medium acidity, full body",
+        "Rich and smooth finish"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "course grind"
+      ],
+      "id": 31,
+      "description": "Flores coffee from Indonesia is known for its spicy and earthy flavors, with a smooth and rich finish. The coffee is grown at high altitudes and carefully processed to maintain its unique profile."
+    },
+    {
+      "coffeePotId": 8,
+      "name": "Costa Rica - Tarrazú",
+      "available": true,
+      "location": {
+        "lat": 9.3368,
+        "lng": -84.1385
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 20
+        },
+        {
+          "grames": 500,
+          "price": 35
+        },
+        {
+          "grames": 750,
+          "price": 50
+        },
+        {
+          "grames": 1000,
+          "price": 65
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 93,
+      "altitude": 1500,
+      "variety": "Caturra",
+      "process": "washed",
+      "cata_notes": [
+        "Bright acidity with a clean, balanced body",
+        "Notes of citrus and honey",
+        "Smooth finish with a subtle sweetness"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "course grind"
+      ],
+      "id": 32,
+      "description": "Tarrazú coffee from Costa Rica is famous for its bright acidity and clean, balanced body. Grown in the high altitudes of Tarrazú, the coffee has a smooth finish with subtle sweetness."
+    },
+    {
+      "coffeePotId": 9,
+      "name": "Tanzania - Arusha",
+      "available": true,
+      "location": {
+        "lat": -3.3869,
+        "lng": 36.6829
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 24
+        },
+        {
+          "grames": 500,
+          "price": 38
+        },
+        {
+          "grames": 750,
+          "price": 55
+        },
+        {
+          "grames": 1000,
+          "price": 72
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 93,
+      "altitude": 1700,
+      "variety": "Bourbon",
+      "process": "washed",
+      "cata_notes": [
+        "Berry-like sweetness with hints of wine",
+        "Medium-high acidity, full body",
+        "Rich and smooth with a clean finish"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "course grind"
+      ],
+      "id": 33,
+      "description": "Arusha coffee from Tanzania is known for its berry-like sweetness and rich body. The beans are grown at high altitudes and processed carefully to maintain their unique flavor profile."
+    },
+    {
+      "coffeePotId": 5,
+      "name": "India - Monsooned Malabar",
+      "available": true,
+      "location": {
+        "lat": 12.9724,
+        "lng": 77.5806
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 20
+        },
+        {
+          "grames": 500,
+          "price": 34
+        },
+        {
+          "grames": 750,
+          "price": 50
+        },
+        {
+          "grames": 1000,
+          "price": 66
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 90,
+      "altitude": 1000,
+      "variety": "Arabica",
+      "process": "monsooned",
+      "cata_notes": [
+        "Earthy, spicy, and heavy-bodied",
+        "Low acidity",
+        "Rich and smooth with a unique, aged character"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "course grind"
+      ],
+      "id": 34,
+      "description": "India's Monsooned Malabar coffee is known for its unique aging process, where beans are exposed to monsoon winds and rain, giving them a distinctive flavor. The coffee has a heavy body and rich, earthy notes."
+    },
+    {
+      "coffeePotId": 6,
+      "name": "Honduras - Marcala",
+      "available": true,
+      "location": {
+        "lat": 14.1450,
+        "lng": -88.0377
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 19
+        },
+        {
+          "grames": 500,
+          "price": 35
+        },
+        {
+          "grames": 750,
+          "price": 52
+        },
+        {
+          "grames": 1000,
+          "price": 69
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 91,
+      "altitude": 1600,
+      "variety": "Catuai, Bourbon",
+      "process": "washed",
+      "cata_notes": [
+        "Nutty and chocolatey with a hint of spice",
+        "Medium acidity, full body",
+        "Rich and smooth with a lingering finish"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "coarse grind"
+      ],
+      "id": 35,
+      "description": "Marcala, Honduras, produces coffee with rich, nutty flavors and a smooth body. The beans are grown at high altitudes and are known for their consistent quality and bold flavors."
+    },
+    {
+      "coffeePotId": 7,
+      "name": "Uganda - Rwenzori",
+      "available": true,
+      "location": {
+        "lat": 0.149997,
+        "lng": 30.051219
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 19
+        },
+        {
+          "grames": 500,
+          "price": 36
+        },
+        {
+          "grames": 750,
+          "price": 52
+        },
+        {
+          "grames": 1000,
+          "price": 68
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 90,
+      "altitude": 1800,
+      "variety": "SL14, SL28",
+      "process": "washed",
+      "cata_notes": [
+        "Fruity and floral with a hint of spice",
+        "Medium acidity, full body",
+        "Smooth and balanced finish"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "coarse grind"
+      ],
+      "id": 36,
+      "description": "Rwenzori coffee from Uganda is known for its fruity and floral notes with a hint of spice, offering a smooth and balanced cup."
+    },
+    {
+      "coffeePotId": 8,
+      "name": "Peru - Cajamarca",
+      "available": true,
+      "location": {
+        "lat": -7.1637,
+        "lng": -78.5003
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 21
+        },
+        {
+          "grames": 500,
+          "price": 38
+        },
+        {
+          "grames": 750,
+          "price": 55
+        },
+        {
+          "grames": 1000,
+          "price": 72
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 92,
+      "altitude": 1700,
+      "variety": "Caturra, Typica",
+      "process": "washed",
+      "cata_notes": [
+        "Nutty and chocolatey with citrus undertones",
+        "Medium acidity, full body",
+        "Rich and smooth finish"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "coarse grind"
+      ],
+      "id": 37,
+      "description": "Cajamarca coffee from Peru is known for its nutty and chocolatey flavors with citrus undertones, offering a rich and smooth finish."
+    },
+    {
+      "coffeePotId": 9,
+      "name": "Ethiopia - Limu",
+      "available": true,
+      "location": {
+        "lat": 8.0593,
+        "lng": 36.8340
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 22
+        },
+        {
+          "grames": 500,
+          "price": 36
+        },
+        {
+          "grames": 750,
+          "price": 52
+        },
+        {
+          "grames": 1000,
+          "price": 68
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 93,
+      "altitude": 1600,
+      "variety": "Heirloom",
+      "process": "washed",
+      "cata_notes": [
+        "Fruity and floral with a hint of spice",
+        "Medium acidity, full body",
+        "Smooth and clean finish"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "coarse grind"
+      ],
+      "id": 38,
+      "description": "Limu coffee from Ethiopia is known for its fruity and floral notes with a hint of spice, offering a smooth and clean finish."
+    },
+    {
+      "coffeePotId": 5,
+      "name": "Panama - Volcán",
+      "available": true,
+      "location": {
+        "lat": 8.7690,
+        "lng": -82.6407
+      },
+      "pack": [
+        {
+          "grames": 250,
+          "price": 24
+        },
+        {
+          "grames": 500,
+          "price": 44
+        },
+        {
+          "grames": 750,
+          "price": 63
+        },
+        {
+          "grames": 1000,
+          "price": 82
+        }
+      ],
+      "image": "https://res.cloudinary.com/dcz7y0fvi/image/upload/v1723111619/03_xx8prl_yybvop.png",
+      "rating": 97,
+      "altitude": 1700,
+      "variety": "Geisha",
+      "process": "washed",
+      "cata_notes": [
+        "Floral aroma with citrus and jasmine notes",
+        "High acidity, medium body",
+        "Smooth and complex with a long-lasting finish"
+      ],
+      "grinding": [
+        "fine grind",
+        "medium grind",
+        "coarse grind"
+      ],
+      "id": 39,
+      "description": "Panama's Volcán region is famous for producing some of the best Geisha coffee in the world. Known for its complex floral notes and high acidity, this coffee is a true delicacy for coffee enthusiasts."
     }
   ]
 }
